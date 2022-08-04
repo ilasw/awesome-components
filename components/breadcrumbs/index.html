@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="./breadcrumb.css">
+<nav aria-label="Breadcrumb"
+     class="Breadcrumb">
+  <div class="container">
+    <ol itemscope="itemscope"
+        itemtype="https://schema.org/BreadcrumbList"
+        class="menu"
+        role="menu"
+    >
+      <li itemscope="itemscope"
+          itemprop="itemListElement"
+          itemtype="https://schema.org/ListItem"
+          class="menu-item"
+          role="menuitem"
+      ><a href="https://www.website.com"
+          itemscope="itemscope"
+          itemtype="https://schema.org/Thing"
+          itemprop="item"
+          aria-label="Open homepage"
+          aria-current="false"
+          class="menu-link"
+      ><span itemprop="name">Home</span> <span
+          class="sr-only">Text that give home-link context for screen reader users</span>
+        <meta itemprop="position" content="1">
+      </a></li>
+      <li itemscope="itemscope"
+          itemprop="itemListElement"
+          itemtype="https://schema.org/ListItem"
+          class="menu-item"
+          role="menuitem"
+      ><a href="https://www.company.com/blog"
+          itemscope="itemscope"
+          itemtype="https://schema.org/Thing"
+          itemprop="item"
+          aria-label="Open blog archive"
+          aria-current="false"
+          class="menu-link"
+      ><span itemprop="name">Blog</span> <span
+          class="sr-only">Text that give blog-link context for screen reader users</span>
+        <meta itemprop="position" content="2">
+      </a></li>
+      <li itemscope="itemscope"
+          itemprop="itemListElement"
+          itemtype="https://schema.org/ListItem"
+          class="menu-item"
+          role="menuitem"
+      ><a href="https://www.company.com/blog/current-article"
+          itemscope="itemscope"
+          itemtype="https://schema.org/Thing"
+          itemprop="item"
+          aria-label="Current page link"
+          aria-current="true"
+          class="menu-link"
+      ><span itemprop="name">How to build a good breadcrumb component</span> <span
+          class="sr-only">Text that give current-link context for screen reader users</span>
+        <meta itemprop="position" content="3">
+      </a></li>
+    </ol>
+  </div>
+</nav>

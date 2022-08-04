@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: .5rem;
+}
+
+.menu-item {
+  display: block;
+}
+
+.menu-link {
+  color: inherit;
+  display: inline-block;
+  text-underline-offset: .25em;
+}
+
+.menu-item:not(:last-child):after {
+  content: " / "
+}
+
+.menu-link[aria-current="true"] {
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.sr-only {
+  overflow: hidden;
+  font-size: 0;
+}
